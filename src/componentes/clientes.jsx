@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function clientes() {
+export default function Clientes() {
   return (
     <div>clientes</div>
   )
