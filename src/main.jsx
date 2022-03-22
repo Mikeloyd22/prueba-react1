@@ -6,6 +6,7 @@ import Home from './componentes/Home'
 import Clientes from './componentes/Clientes'
 import Facturas from './componentes/Facturas'
 import Productos from './componentes/Productos'
+import Eth from './componentes/Eth'
 
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Route path='/facturas' element={ <Facturas></Facturas>}/>
         <Route path='/productos' element={ <Productos></Productos>}/>
         <Route path='/clientes' element={ <Clientes></Clientes>}/>
+        <Route path='/eth' element={ <Eth></Eth>}/>
       </Route>
     </Routes>
   </BrowserRouter>,
